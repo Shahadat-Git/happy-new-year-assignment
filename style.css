@@ -210,6 +210,35 @@
 
 /* gradient section style end */
 
+/* my team  section style start */
+.updates-text{
+    margin-bottom: 60px;
+}
+
+.team-member-information{
+    width: 80%;
+    margin: auto;
+    background: linear-gradient(180deg, #f15b22 0%, rgba(114, 240, 65, 0) 100%), repeating-linear-gradient(360deg, rgb(226, 43, 52) 0%, rgba(114, 240, 65, 0) 100%);
+    padding: 30px 0 20px 0;
+    border-radius: 5px;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.team-member-images{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+
+#team-member-images-size{
+    /* height: 200px;
+    width: 240px; */
+    width: 80%;
+}
+/* my team  section style end */
+
 /* footer section style start */
 footer {
     height: 577px;
