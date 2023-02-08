@@ -60,6 +60,54 @@
     border: none;
     cursor: pointer;
 }
-/* header style ended */
+/* header style end */
   
-
+/* faliures section style */
+.failures {
+    display: flex;
+    align-items: center;
+    gap: 87px;
+    margin-top: 130px;
+}
+.failures img {
+    width: 569px;
+    height: 723.3px;
+}
+  
+.failures .failures-content .failures-headding {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #151414;
+    margin: 0 104px 24px 0;
+}
+.failures .failures-content .failures-description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #444343;
+    margin: 0 125px 16px 0;
+}
+  
+.failures ul {
+    list-style-position: inside;
+}
+.failures ul li {
+    list-style-type: none;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #444343;
+}
+  
+.failures .failures-content ul > span {
+    display: flex;
+    align-items: center;
+    gap: 3px;
+}
+  
+.failures ul span img {
+    width: 18px;
+    height: 20px;
+}
+/* faliures section style end*/
