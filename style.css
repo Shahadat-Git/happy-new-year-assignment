@@ -169,7 +169,7 @@
 /* plans section style ended */
 
 /* gradient section style start */
-.gradient{
+.gradient {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -180,7 +180,7 @@
     padding: 59px 64px 59px 64px;
     width: 1140px;
     height: 100px;
-    background: linear-gradient(90deg, #f15b22 0%, rgba(241, 91, 34, 0) 100%),url("images/watch.png");
+    background: linear-gradient(90deg, #f15b22 0%, rgba(241, 91, 34, 0) 100%), url("images/watch.png");
     border-radius: 8px;
     background-repeat: no-repeat;
     background-position: center;
@@ -207,4 +207,115 @@
     cursor: pointer;
     border-radius: 7px;
 }
+
 /* gradient section style end */
+
+/* footer section style start */
+footer {
+    height: 577px;
+    background: #151414;
+    margin-top: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-content {
+    display: flex;
+    gap: 300px;
+    margin: 0 auto;
+}
+
+.futures-content {
+    width: 50%;
+    height: 50%;
+}
+
+.futures-content-title {
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 55px;
+    color: #f8f8f8;
+}
+
+.futures-content-description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    color: #ffffff;
+    margin-top: 16px;
+}
+
+.futures-email {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    color: #ffffff;
+    margin-top: 25px;
+}
+
+.futures-phone {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    color: #ffffff;
+    margin-top: 15px;
+}
+
+.futures-icons {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-top: 30px;
+}
+
+
+.futures-icons a img {
+    width: 35px;
+    height: 35px;
+}
+
+.subscribe-content {
+    width: 50%;
+    height: 50%;
+}
+
+.subscribe-title {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 20px;
+    color: #ffffff;
+    margin-bottom: 8px;
+}
+
+.subscribe-content form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.subscribe-content form input[type="email"] {
+    width: 300px;
+    height: 10px;
+    border-radius: 8px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #f3f3f3;
+    background: #151414;
+    border: 1px solid white;
+    padding: 20px 0 20px 20px;
+}
+
+.subscribe-content form input[type="submit"] {
+    width: 145px;
+    height: 50px;
+    background: #ffffff;
+    border-radius: 7px;
+    font-weight: 600;
+    font-size: 16px;
+    color: #f15b22;
+    border: none;
+    cursor: pointer;
+}
+
+/* footer section style end */
