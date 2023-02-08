@@ -25,7 +25,7 @@
     background-repeat: no-repeat;
 }
   
-.banner .banner-content .banner-heading {
+.banner-heading {
     text-align: right;
     font-weight: 700;
     font-size: 60px;
@@ -35,7 +35,7 @@
     margin: 0 0 24px 552px;
 }
   
-.banner .banner-content .banner-description {
+.banner-description {
     font-weight: 400;
     font-size: 16px;
     line-height: 26px;
@@ -48,7 +48,7 @@
     justify-content: end;
 }
   
-.banner-content .banner-btn {
+.banner-btn {
     width: 137px;
     height: 52px;
     background: #f15b22;
@@ -74,14 +74,14 @@
     height: 723.3px;
 }
   
-.failures .failures-content .failures-headding {
+.failures-headding {
     font-weight: 700;
     font-size: 40px;
     line-height: 47px;
     color: #151414;
     margin: 0 104px 24px 0;
 }
-.failures .failures-content .failures-description {
+.failures-description {
     font-weight: 400;
     font-size: 16px;
     line-height: 26px;
@@ -100,7 +100,7 @@
     color: #444343;
 }
   
-.failures .failures-content ul > span {
+.failures-content ul > span {
     display: flex;
     align-items: center;
     gap: 3px;
@@ -111,3 +111,50 @@
     height: 20px;
 }
 /* faliures section style end*/
+
+/* plans section style start */
+
+  
+.plans h2 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #151414;
+    text-align: center;
+    margin-top: 100px;
+}
+  
+.plans-container {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+}
+.plans-item {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    align-items: center;
+}
+.plans-item img {
+    width: 92.96px;
+    height: 92.96px;
+}
+  
+.plans-title {
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 30px;
+    text-align: center;
+    color: #151414;
+}
+  
+.plans-description {
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 24px;
+    text-align: center;
+    color: #737272;
+}
+/* plans section style ended */
